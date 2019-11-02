@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Hyperdekorativismus Journal`,
+    title: `The Hyperdekorativismus Times`,
     author: `many minds`,
     description: `A starter journal to see how this could work.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,

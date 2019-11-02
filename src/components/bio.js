@@ -9,14 +9,14 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-import { rhythm } from "../utils/typography"
+import { scale, rhythm } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/hyper-gris.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 250, height: 83) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -37,6 +37,8 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
+        flexDirection:`column`,
+
         marginBottom: rhythm(2.5),
       }}
     >
@@ -44,16 +46,26 @@ const Bio = () => {
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
+          // marginRight: rhythm(1 ),
+          marginTop: rhythm(0.5),
+          marginBottom: rhythm(1),
+          // minWidth: 50,
+          // borderRadius: `100%`,
         }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
+        // imgStyle={{
+        //   borderRadius: `50%`,
+        // }}
       />
-      <p>
+      <p
+       style={{
+          // marginRight: rhythm(1 ),
+          marginTop: rhythm(0.5),
+          marginBottom: rhythm(1),
+           ...scale(-1 / 5)
+          // minWidth: 50,
+          // borderRadius: `100%`,
+        }}
+      >
         Written by <strong>{author}</strong> who live and think around the world.
         {` `}
 
