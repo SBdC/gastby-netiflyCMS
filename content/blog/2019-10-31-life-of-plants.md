@@ -2,6 +2,7 @@
 title: Life of Plants
 date: 2019-10-31T13:55:36.440Z
 description: peak peak light light
+thumbnail: /img/life-of-planst.jpeg
 ---
 ![](/img/life-of-planst.jpeg)
 
