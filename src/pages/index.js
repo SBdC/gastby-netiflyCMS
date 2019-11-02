@@ -15,9 +15,11 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
+           <div className="blog-grid">
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
+         
             <article key={node.fields.slug}>
               <header>
     
@@ -30,20 +32,26 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+               {/*  <small>{node.frontmatter.date}</small> */}
                 
               </header>
-              <section>
-               
-                <div style={{ marginBottom: rhythm(1) }}
+              <section >
+
+               <img src={node.frontmatter.thumbnail} alt=""/>
+               {/* 
+                   <div style={{ marginBottom: rhythm(1) }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
+
+               */}
               </section>
             </article>
+           
           )
         })}
+         </div>
       </Layout>
     )
   }
@@ -71,6 +79,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            thumbnail
           }
         }
       }
