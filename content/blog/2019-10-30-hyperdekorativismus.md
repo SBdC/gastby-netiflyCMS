@@ -2,6 +2,7 @@
 title: Ma Kodawari
 date: 2019-10-30T16:31:09.295Z
 description: poem by joana
+thumbnail: /img/borboleta.jpg
 ---
 ![](/img/borboleta.jpg)
 
