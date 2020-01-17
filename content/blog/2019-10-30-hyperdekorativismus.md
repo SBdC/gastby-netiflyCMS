@@ -2,7 +2,7 @@
 title: Ma Kodawari
 date: 2019-10-30T16:31:09.295Z
 description: poem by joana
-thumbnail: /img/borboleta.jpg
+thumbnail: /img/img_4610.jpg
 ---
 ![](/img/borboleta.jpg)
 
@@ -18,8 +18,6 @@ aquilo que não pode ser vencido
 
 e que não lhe é pedido isso.
 
-
-
 Nada dura
 
 e nada é perfeito.
@@ -34,8 +32,6 @@ aberta à disposição à vida
 
 por inteiro.
 
-
-
 a possibilidade de espaços intermediários
 
 passos simultâneos entre duas coisas. 
@@ -43,8 +39,6 @@ passos simultâneos entre duas coisas.
 Que não escolhe entre vida e morte,
 
 que não reduz a vida à morte.
-
-
 
 a Vida a dar
 
@@ -58,13 +52,9 @@ abstracta, imobilizada, morta
 
 que a respiração da Vida em si abre em cada intervalo. 
 
-
-
 A morte não está atrás
 
 nem à frente da Vida.
-
-
 
 Um intervalo
 
@@ -78,8 +68,6 @@ o suspiro de desejo
 
 de outra coisa.
 
-
-
 A Vida é desejo, é incomensurável.    
 
 A vida é múltipla, 
@@ -92,16 +80,4 @@ imperfeição e perfeição,
 
 o retorno da manhã e das estrelas à noite 
 
-“o júbilo do efémero pela sua renovação: voltar a dançar, a cantar, eternamente”
-
-\    Nem à frente nem atrás a morte está.
-
-
-
-Ficar vivo depois de assistir e cuidar a morte
-
-de alguém que se ama obriga a saber isto. 
-
-
-
-“Não te esqueças de viver!”
+“o júbilo do efémero pela sua renovação: voltar a dançar, a cantar, eternamente”.
